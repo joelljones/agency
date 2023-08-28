@@ -1,4 +1,6 @@
 ---
+import Header from '../components/Header.astro';
+
 const { title = 'Agency' } = Astro.props;
 ---
 
@@ -13,6 +15,7 @@ const { title = 'Agency' } = Astro.props;
     <title>{title}</title>
   </head>
   <body class="flex min-h-full flex-col">
+    <Header />
     <slot />
   </body>
 </html>
