@@ -1,0 +1,134 @@
+---
+import { Image } from 'astro:assets';
+import brightpath from '../img/logo-light.brightpath.svg';
+import familyfund from '../img/logo-light.family-fund.svg';
+import greenlife from '../img/logo-light.green-life.svg';
+import homework from '../img/logo-light.home-work.svg';
+import mailsmirk from '../img/logo-light.mailsmirk.svg';
+import northadventures from '../img/logo-light.north-adventures.svg';
+import phobia from '../img/logo-light.phobia.svg';
+import unseal from '../img/logo-light.unseal.svg';
+---
+
+<!-- PAST CLIENTS -->
+<section
+  class="mt-24 rounded-[40px] bg-neutral-950 py-20 sm:mt-32 sm:py-32 lg:mt-56"
+>
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-2xl lg:max-w-none">
+      <div
+        class="flex items-center gap-x-8 opacity-100 transform-none"
+      >
+        <h2
+          class="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left"
+        >
+          We’ve worked with hundreds of amazing people
+        </h2>
+        <div class="h-px flex-auto bg-neutral-800"></div>
+      </div>
+      <div>
+        <ul
+          role="list"
+          class="mt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4"
+        >
+          <li>
+            <div class="opacity-100 transform-none">
+              <Image
+                alt="Phobia"
+                width="184"
+                height="36"
+                data-nimg="1"
+                src={phobia}
+                class="text-transparent"
+              />
+            </div>
+          </li>
+          <li>
+            <div class="opacity-100 transform-none">
+              <Image
+                alt="Family Fund"
+                width="184"
+                height="36"
+                data-nimg="1"
+                src={familyfund}
+                class="text-transparent"
+              />
+            </div>
+          </li>
+          <li>
+            <div class="opacity-100 transform-none">
+              <Image
+                alt="Unseal"
+                width="184"
+                height="36"
+                data-nimg="1"
+                src={unseal}
+                class="text-transparent"
+              />
+            </div>
+          </li>
+          <li>
+            <div class="opacity-100 transform-none">
+              <Image
+                alt="Mail Smirk"
+                width="184"
+                height="36"
+                data-nimg="1"
+                src={mailsmirk}
+                class="text-transparent"
+              />
+            </div>
+          </li>
+          <li>
+            <div class="opacity-100 transform-none">
+              <Image
+                alt="Home Work"
+                width="184"
+                height="36"
+                data-nimg="1"
+                src={homework}
+                class="text-transparent"
+              />
+            </div>
+          </li>
+          <li>
+            <div class="opacity-100 transform-none">
+              <Image
+                alt="Green Life"
+                width="184"
+                height="36"
+                data-nimg="1"
+                src={greenlife}
+                class="text-transparent"
+              />
+            </div>
+          </li>
+          <li>
+            <div class="opacity-100 transform-none">
+              <Image
+                alt="Bright Path"
+                width="184"
+                height="36"
+                data-nimg="1"
+                src={brightpath}
+                class="text-transparent"
+              />
+            </div>
+          </li>
+          <li>
+            <div class="opacity-100 transform-none">
+              <Image
+                alt="North Adventures"
+                width="184"
+                height="36"
+                data-nimg="1"
+                src={northadventures}
+                class="text-transparent"
+              />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
