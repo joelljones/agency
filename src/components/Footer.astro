@@ -1,8 +1,8 @@
 <!-- FOOTER SECTION -->
-<footer>
+<footer class="bg-white">
   <!-- CONTACT -->
-  <section class="w-full flex-auto">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-24 sm:mt-32 lg:mt-40">
+  <section id="contact" class="w-full flex-auto">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 pt-24 sm:pt-32 lg:pt-40">
       <div class="mx-auto max-w-2xl lg:max-w-none">
         <div
           class="-mx-6 rounded-[40px] bg-neutral-950 px-6 py-20 sm:mx-0 sm:py-32 md:px-12 opacity-100 transform-none"
@@ -55,7 +55,7 @@
 
   <!-- NAV, NEWSLETTER & FOOTER BOTTOM -->
   <section
-    class="mx-auto max-w-7xl px-6 lg:px-8 mt-24 w-full sm:mt-32 lg:mt-40"
+    class="mx-auto max-w-7xl px-6 lg:px-8 pt-24 w-full sm:pt-32 lg:pt-40"
   >
     <div class="mx-auto max-w-2xl lg:max-w-none">
       <div class="opacity-100 transform-none">
@@ -232,7 +232,7 @@
 
         <!-- FOOTER BOTTOM -->
         <div
-          class="mb-20 mt-24 flex flex-wrap items-end justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12"
+          class="pb-20 mt-24 flex flex-wrap items-end justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12"
         >
           <a aria-label="Home" href="/">
             <span>Agency</span>
@@ -243,3 +243,19 @@
     </div>
   </section>
 </footer>
+
+<script>
+  // Get the current URL
+  const currentURL = window.location.href;
+
+  // Check if the URL contains specific keywords or patterns
+  const isContact = currentURL.includes('contact');
+
+  // Get the header element
+  const contactSection = document.getElementById('contact');
+
+  // Apply the appropriate text color based on the URL condition
+  if (isContact) {
+    contactSection.classList.add('hidden');
+  }
+</script>
