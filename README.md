@@ -1,12 +1,12 @@
 # Agency
 
-Web development agency company website.
+Web development agency company website
 
 ![screenshot](src/assets/screenshot.png)
 
 **Link to project:** https://agency-dev-studio.netlify.app
 
-## How It's Made:
+## 🚀 How It's Made:
 
 **Tech used:** [Astro](https://astro.build/), HTML, [Tailwind CSS](https://tailwindcss.com/), JavaScript, React, [Headless UI](https://headlessui.com/)
 
